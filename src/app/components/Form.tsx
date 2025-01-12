@@ -43,6 +43,7 @@ function Form() {
         });
       }
     } catch (error) {
+    console.error("Error submitting form:", error);
       alert("Submitting form failed!");
     }
   };
